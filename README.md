@@ -4,12 +4,12 @@ Parse a value as a boolean
 
 Values that are considered truthy:
 
-- true
-- 'true'
-- '1'
-- 'yes'
-- 'on'
-- 'enabled'
+- `true`
+- `'true'`
+- `'1'`
+- `'yes'`
+- `'on'`
+- `'enabled'`
 
 Values can be parsed as case-sensitive by setting the second argument to `true`.
 
