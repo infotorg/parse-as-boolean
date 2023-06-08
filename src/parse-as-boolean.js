@@ -1,3 +1,10 @@
+/**
+ * Parse a value as a boolean.
+ *
+ * @param {*} value
+ * @param {boolean} [isCaseSensitive=false]
+ * @return {boolean}
+ */
 function parseAsBoolean(value, isCaseSensitive = false) {
   const truthy = ['true', '1', 'yes', 'on', 'enabled'];
   const caseSensitive = typeof isCaseSensitive === 'boolean' ? isCaseSensitive : false;
