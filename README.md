@@ -64,7 +64,7 @@ parseAsBoolean('on', true); // true
 // Falsey – Case-sensitive
 parseAsBoolean('TRUE', true); // false
 parseAsBoolean('YES', true); // false
-parseAsBoolean('false', true); // false
+parseAsBoolean('FALSE', true); // false
 parseAsBoolean('ENABLED', true); // false
 parseAsBoolean('ON', true); // false
 ```
