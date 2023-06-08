@@ -6,6 +6,7 @@ Values that are considered truthy:
 
 - `true`
 - `'true'`
+- `1`
 - `'1'`
 - `'yes'`
 - `'on'`
@@ -30,6 +31,7 @@ import { parseAsBoolean } from '@infotorg/parse-as-boolean';
 parseAsBoolean(true); // true
 parseAsBoolean('true'); // true
 parseAsBoolean('TRUE'); // true
+parseAsBoolean(1); // true
 parseAsBoolean('1'); // true
 parseAsBoolean('yes'); // true
 parseAsBoolean('YES'); // true
