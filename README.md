@@ -13,8 +13,6 @@ Values that are considered truthy:
 
 Values can be parsed as case-sensitive by setting the second argument to `true`.
 
-## [API documentation](https://infotorg.github.io/parse-as-boolean/)
-
 ## Installation
 
 ```bash
@@ -26,7 +24,7 @@ $ npm install @infotorg/parse-as-boolean
 ```javascript
 import { parseAsBoolean } from '@infotorg/parse-as-boolean';
 // or for node.js
-// const { parseAsBoolean } = require(''@infotorg/parse-as-boolean'');
+// const { parseAsBoolean } = require('@infotorg/parse-as-boolean');
 
 // Truthy – Case-insensitive
 parseAsBoolean(true); // true
@@ -35,7 +33,6 @@ parseAsBoolean('TRUE'); // true
 parseAsBoolean('1'); // true
 parseAsBoolean('yes'); // true
 parseAsBoolean('YES'); // true
-parseAsBoolean('false'); // false
 parseAsBoolean('enabled'); // true
 parseAsBoolean('ENABLED'); // true
 parseAsBoolean('on'); // true
@@ -44,6 +41,7 @@ parseAsBoolean('ON'); // true
 // Falsey – Case-insensitive
 parseAsBoolean(''); // false
 parseAsBoolean(false); // false
+parseAsBoolean('false'); // false
 parseAsBoolean(0); // false
 parseAsBoolean(0.5); // false
 parseAsBoolean('0'); // false
