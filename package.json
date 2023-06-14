@@ -1,15 +1,15 @@
 {
   "name": "@infotorg/parse-as-boolean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a value as boolean",
   "type": "module",
-  "main": "dist/parse-as-boolean.cjs.js",
+  "main": "dist/parse-as-boolean.cjs",
   "module": "dist/parse-as-boolean.esm.js",
   "unpkg": "dist/parse-as-boolean.umd.js",
   "jsdelivr": "dist/parse-as-boolean.umd.js",
   "exports": {
     ".": {
-      "require": "./dist/parse-as-boolean.cjs.js",
+      "require": "./dist/parse-as-boolean.cjs",
       "import": "./dist/parse-as-boolean.esm.js",
       "umd": "./dist/parse-as-boolean.umd.js"
     }
@@ -43,14 +43,12 @@
     "test": "tests"
   },
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
-    "@babel/core": "^7.21.3",
-    "@babel/eslint-parser": "^7.21.3",
-    "@babel/plugin-transform-runtime": "^7.22.4",
-    "@babel/preset-env": "^7.22.4",
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/eslint-parser": "^7.22.5",
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
     "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-commonjs": "^24.1.0",
-    "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-terser": "^0.4.3",
     "babel-jest": "^29.3.1",
     "eslint": "^8.42.0",
@@ -59,6 +57,6 @@
     "husky": "^8.0.3",
     "jest": "^29.3.1",
     "prettier": "^2.8.6",
-    "rollup": "^3.20.0"
+    "rollup": "^3.25.1"
   }
 }
